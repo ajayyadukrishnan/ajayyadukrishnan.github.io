@@ -1,2 +1,2 @@
 (this["webpackJsonpajayyadukrishnan.github.io"]=this["webpackJsonpajayyadukrishnan.github.io"]||[]).push([[0],{10:function(n,t,e){},11:function(n,t,e){"use strict";e.r(t);var i=e(0),c=e(1),a=e.n(c),o=e(3),u=e.n(o);e(9),e.p,e(10);var r=function(){return Object(i.jsx)("div",{children:Object(i.jsx)("homepage",{})})},s=function(n){n&&n instanceof Function&&e.e(3).then(e.bind(null,12)).then((function(t){var e=t.getCLS,i=t.getFID,c=t.getFCP,a=t.getLCP,o=t.getTTFB;e(n),i(n),c(n),a(n),o(n)}))};u.a.render(Object(i.jsx)(a.a.StrictMode,{children:Object(i.jsx)(r,{})}),document.getElementById("root")),s()},9:function(n,t,e){}},[[11,1,2]]]);
-//# sourceMappingURL=main.62e61721.chunk.js.map
+//# sourceMappingURL=main.c56055c9.chunk.js.map
