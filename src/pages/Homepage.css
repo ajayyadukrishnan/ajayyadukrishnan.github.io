@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.homePageDiv{
+    height: 100vh;
+    /* width: 90vw; */
+}
+
+.profileDiv {
+    padding-top: 10vh;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid #E9A822;
+}
+
+.profileName{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10vmin;
+    font-weight: 100;
+    color: white;
+}
+
+.profileWelcome{
+    padding-top: 8vmin;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4vmin;
+    font-weight: 100;
+    width: 50vw;
+    color: white;
+}
+
+.profileIntro{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4vmin;
+    font-weight: 100;
+    width: 50vw;
+    color: white;
+}
+
+.test{
+    height: 100vh;
+}
+
+.divider {
+    display: block;
+    /* height: ; */
+    border: 0;
+    border-top: 1vmin solid #E9A822;
+    /* width: 90vw; */
+    margin: 1em 0;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    float: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}

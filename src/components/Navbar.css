@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: rgb(37, 41, 52);
+}
+
+.sticky-navbar {
+  background-color: rgb(37,41,52);
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  height: 8vmin;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 3vmin;
+  text-align: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  vertical-align: center;
+  padding: 0;
+  /* line-height: 0; */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  height: 8vmin;
+  background-color: rgb(37,41,52);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2vmin 20px 2vmin;
+  text-decoration: none;
+  text-align: center;
+  height: 8vmin;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+  background-color: #E9A822;
+}
+
+.is-active {
+  background-color: red;
+}
