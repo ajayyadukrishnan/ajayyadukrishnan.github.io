@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@
   top: 0;
   height: 8vmin;
   width: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 3vmin;
   text-align: right;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
