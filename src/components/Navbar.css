@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   border: none;
-  background-color: rgb(37, 41, 52);
+  background-color: #0A192F;
 }
 
 .sticky-navbar {
-  background-color: rgb(37,41,52);
+  background-color: #0A192F;
   position: -webkit-sticky;
   /* Safari */
   position: sticky;
@@ -20,6 +20,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   vertical-align: center;
   padding: 0;
+  z-index: 1;
   /* line-height: 0; */
 }
 
@@ -31,10 +32,12 @@ ul {
   float: right;
   height: 8vmin;
   background-color: rgb(37,41,52);
+  color: white;
 }
 
 li {
   float: left;
+  color: white;
 }
 
 li a {
@@ -51,8 +54,9 @@ li a {
 
 li a:hover {
   background-color: #E9A822;
+  color: white;
 }
 
-.is-active {
-  background-color: red;
+li a:visited {
+  color: white;
 }

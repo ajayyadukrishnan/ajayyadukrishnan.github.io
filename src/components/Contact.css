@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
-
-.contact{
+.contact {
     text-align: center;
     display: block;
     justify-content: center;
@@ -9,7 +8,7 @@
     padding-bottom: 25vmin;
 }
 
-.contact-label{
+.contact-label {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 10vmin;
     font-weight: 100;
@@ -21,12 +20,31 @@
     margin: auto;
 }
 
-.socials{
+.contactDescription{
+    color: white;
+    width: 50vw;
+    text-align: center;
+    font-size: larger;
+    display: inline-block;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    line-height: 4vh;
+}
+
+.socials {
     text-align: center;
     display: block;
     justify-content: center;
     align-items: center;
     /* margin: auto; */
     /* padding-right: 10px; */
-    margin: auto;
+    margin-top: 5vh;
+}
+
+.social {
+    transition: all .5s ease-in-out;
+}
+
+.social:hover {
+    transform: scale(1.2);
 }

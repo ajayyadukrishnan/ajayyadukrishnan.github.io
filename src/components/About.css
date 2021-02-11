@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500&display=swap');
+
+.about{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 25vmin;
+}
+
+.about-label{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10vmin;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
